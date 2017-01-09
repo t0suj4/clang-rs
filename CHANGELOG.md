@@ -1,3 +1,11 @@
+## [0.15.0] - UNRELEASED
+
+### Changed
+- Renamed `EvaluationResult::Integer` variant to `SignedInteger`
+
+### Added
+- Added support for `clang` 4.0.x
+
 ## [0.14.0] - 2016-11-01
 
 ### Added

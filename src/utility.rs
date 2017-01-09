@@ -179,7 +179,7 @@ nullable!(CXCompletionString);
 nullable!(CXCursorSet);
 nullable!(CXDiagnostic);
 nullable!(CXDiagnosticSet);
-#[cfg(feature="clang_3_9")]
+#[cfg(feature="gte_clang_3_9")]
 nullable!(CXEvalResult);
 nullable!(CXFile);
 nullable!(CXIdxClientASTFile);
